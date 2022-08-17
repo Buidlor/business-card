@@ -1,0 +1,96 @@
+body{
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background: #23252C;
+
+    font-family: 'Inter';
+}
+.main {
+    display: block;
+    width: 317px;
+    color: #F5F5F5;
+    background: #1A1B21;
+    border-radius: 10px 10px 10px 10px;
+}
+.info{
+    text-align: center;  
+}
+
+.over{
+    width: 247px;
+    margin: auto;    
+}
+.inter{
+    width: 247px;
+    margin: auto;
+}
+.image{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+    background: #1A1B21;
+}
+.name{
+    color: white;
+    margin: auto;
+    font-size: 40px;
+}
+.title{
+    margin: auto;
+    font-size: 15px; 
+    color: #F3BF99;
+}
+.site{
+    margin-top: 5px;
+    font-size: 10px; 
+}
+.footer{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color:  #161619;
+    border-radius: 0px 0px 10px 10px; 
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 235px;   
+}
+
+li *{
+    width: 25px;
+    border-radius: 3px 3px 3px 3px; 
+}
+
+.emailBtn{
+    width: 247px;
+    height: 30px;
+    left: 151px;
+    top: 469px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-top: -5px
+}
+.emailIcon{
+    margin-right: 6px;
+}
+
+p.inter{
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    color: #DCDCDC;
+}
+p.over {
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
